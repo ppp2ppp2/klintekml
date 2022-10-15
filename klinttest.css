@@ -1,9 +1,9 @@
 /* increase start and end */
 .container.range-plugin .calendar>.days-grid>.day.start {
-      border-bottom: solid;
-      border-left: solid transparent;
+      border-bottom: 35px solid;
+      border-left: 35px solid transparent;
 }  
 .container.range-plugin .calendar>.days-grid>.day.end {
-      border-bottom: solid;
-      border-right: solid transparent;
+      border-bottom: 35px solid;
+      border-right: 35px solid transparent;
 }

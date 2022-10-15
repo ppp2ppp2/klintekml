@@ -1,12 +1,4 @@
 /* increase start and end */
-.container.range-plugin .calendar>.days-grid>.day.start {
-      border-bottom: 30px solid;
-      border-left: 30px solid transparent;
-}  
-.container.range-plugin .calendar>.days-grid>.day.end {
-      border-bottom: 30px solid;
-      border-right: 30px solid transparent;
-}
 .container.lock-plugin .calendar>.days-grid>.day.start {
             border-bottom: 30px solid;
       border-left: 30px solid transparent;
@@ -16,6 +8,5 @@
       border-right: 30px solid transparent;
 }
 .container.lock-plugin .calendar>.days-grid>.day.locked:not(.start):not(.end) {
-            border-bottom: 30px solid;
-      border-right: 30px solid transparent;
+      background-color: #ff9800
 }

@@ -1,7 +1,6 @@
 /* increase start and end */
 .container.lock-plugin .calendar>.days-grid>.day.locked {
-          color: #ff9800;
-          background-color: none;
+          background-color: #ff9800;
           border: none;
           pointer-events: none;
           font-style: bold;

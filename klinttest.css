@@ -2,11 +2,11 @@
 .container.lock-plugin .calendar>.days-grid>.day.locked:not(.start):not(.end) {
       background-color: #ff9800
 }
-.container.lock-plugin .calendar>.days-grid>.day.locked:.start {
+.container.lock-plugin .calendar>.days-grid>.day.locked:equal(.start) {
             border-bottom: 30px solid;
       border-left: 30px solid transparent;
 }
-.container.lock-plugin .calendar>.days-grid>.day.locked:.end {
+.container.lock-plugin .calendar>.days-grid>.day.locked:equal(.end) {
             border-bottom: 30px solid;
       border-right: 30px solid transparent;
 }

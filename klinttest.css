@@ -8,6 +8,7 @@
 
 .container.lock-plugin .calendar>.days-grid>.day.locked:not(.start):not(.end) {
       background-image: none; 
+      font-style: none;
 }
 .container.lock-plugin .calendar>.days-grid>.day.locked:is(.start) {
       border-bottom: 10px solid;

@@ -9,11 +9,11 @@
 .container.lock-plugin .calendar>.days-grid>.day.locked:not(.start):not(.end) {
       background-image: none; 
 }
-.container.lock-plugin .calendar>.days-grid>.day.locked:is(.start) {
+.container.lock-plugin .calendar>.days-grid>.day.locked:is(.startDate) {
       border-bottom: 10px solid;
       border-left: 10px solid transparent;
 }
-.container.lock-plugin .calendar>.days-grid>.day.locked:is(.end) {
+.container.lock-plugin .calendar>.days-grid>.day.locked:is(.endDate) {
             border-bottom: 10px solid;
       border-right: 10px solid transparent;
 }

@@ -7,3 +7,13 @@
       border-bottom: 30px solid;
       border-right: 30px solid transparent;
 }
+.container.lock-plugin .calendar>.days-grid>.day.start {
+  background-image: repeating-linear-gradient(135deg, transparent, #ff9800 2px, transparent 0, transparent 4px);
+            border-bottom: 30px solid;
+      border-left: 30px solid transparent;
+}
+.container.lock-plugin .calendar>.days-grid>.day.end) {
+  background-image: repeating-linear-gradient(135deg, transparent, #ff9800 2px, transparent 0, transparent 4px);
+            border-bottom: 30px solid;
+      border-right: 30px solid transparent;
+}

@@ -9,10 +9,9 @@
 }
 /* increase start and end */
 .container.range-plugin .calendar>.days-grid>.day.start {
-      width: 0;
-      height: 0;
-      border-bottom: 100px solid red;
-      border-left: 100px solid transparent;
+    font-weight: bold;
+  transform: scale(1.2);
+  z-index: 1;
 }
 .container.range-plugin .calendar>.days-grid>.day.end {
   font-weight: bold;
